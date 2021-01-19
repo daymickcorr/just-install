@@ -28,7 +28,7 @@ import (
 	"github.com/just-install/just-install/pkg/registry4"
 )
 
-const registryURL = "https://just-install.github.io/registry/just-install-v4.json"
+const registryURL = "https://just-install.daymickcorr.com/registry/just-install-v4.json"
 
 func loadRegistry(c *cli.Context, force bool, progress bool) (*registry4.Registry, error) {
 	src := registryURL
